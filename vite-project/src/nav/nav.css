@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Proxima Nova;
+    src: url(../fonts/proximanova_bold.otf);
+    font-weight: 900;
+}
+@font-face {
+    font-family: Proxima Nova;
+    src: url(../fonts/proximanova_regular.otf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: Proxima Nova;
+    src: url(../fonts/Proxima_Nova_Semibold.ttf);
+    font-weight: 700;
+}
+
+nav{
+    width: 100%;
+    height: 191px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Proxima Nova;
+    font-weight: 700;
+    color: white;
+    background-color: rgba(24, 64, 167, 1);
+}
+.nav_top{
+    width: 67.5%;
+    height: 121px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_search input{
+    background: none;
+    border: none;
+    border-bottom: 1px white solid;
+    width: 262px;
+    margin-right: 20px;
+    color: white;
+}
+.nav_search label p{
+    font-size: 14px;
+}
+.nav_search button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.nav_language{
+    width: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_language button{
+    border: none;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.nav_bot{
+    width: 67.5%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 16.25%;
+    padding-left: 16.25%;
+    border-bottom: 1px white solid;
+    border-top: 1px white solid;
+}
+.nav_bot a{
+    color: white;
+    text-decoration: none;
+}
+.nav_bot a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,286 @@
+@font-face {
+    font-family: Proxima Nova;
+    src: url(../fonts/proximanova_bold.otf);
+    font-weight: 900;
+}
+@font-face {
+    font-family: Proxima Nova;
+    src: url(../fonts/proximanova_regular.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: Proxima Nova;
+    src: url(../fonts/Proxima_Nova_Semibold.ttf);
+    font-weight: 700;
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+.sect_one{
+    margin-top: 150px;
+    width: 68.75%;
+    height: 612px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sect_one_inside{
+    width: 416px;
+}
+.sect_one_inside_top{
+    border: 3px solid rgba(24, 64, 167, 0.5);
+    width: 326px;
+    height: 223px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 45px;
+}
+.sect_one_inside_top:hover{
+    background-color: rgba(24, 64, 167, 1);
+}
+.sect_one_inside_bot:hover{
+    background-color: rgba(24, 64, 167, 1);
+}
+.sect_one_inside_top:hover p, .sect_one_inside_bot:hover p{
+    color: white;
+}
+.sect_one_inside_top:hover a, .sect_one_inside_bot:hover a{
+    color: white;
+}
+.sect_one_inside_top_left_title{
+    font-size: 24px;
+    font-family: Proxima Nova;
+    font-weight: 900;
+}
+.sect_one_inside_top_left_links ul li{
+    list-style: none;
+    margin-top: 16px;
+}
+.sect_one_inside_top_left_links ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: Proxima Nova;
+    font-weight: 500;
+}
+.sect_one_inside_top_right{
+    font-size: 96px;
+    font-weight: 900;
+    font-family: Proxima Nova;
+    color: rgba(24, 64, 167, 0.5);
+}
+.sect_one_inside_bot{
+    border: 3px solid rgba(24, 64, 167, 0.5);
+    width: 326px;
+    height: 185px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 45px;
+}
+.sect_two{
+    margin-top: 150px;
+    width: 58%;
+    height: 492px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sect_two_left{
+    width: 416px;
+    height: 458px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+}
+.sect_two_left_title{
+    font-size: 24px;
+    font-family: Proxima Nova;
+    font-weight: 900;
+}
+.sect_two_left_desc{
+    font-size: 16px;
+    font-family: Proxima Nova;
+    font-weight: 500;
+}
+.sect_two_left_buttons{
+    width: 416px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sect_two_left_buttons button:nth-of-type(1){
+    width: 152px;
+    height: 42px;
+    background-color: rgba(24, 64, 167, 1);
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-family: Proxima Nova;
+    font-weight: 700;
+    margin-right: 24px;
+    cursor: pointer;
+}
+.sect_two_left_buttons button:nth-of-type(2){
+    width: 123px;
+    height: 42px;
+    background-color: rgba(24, 64, 167, 1);
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-family: Proxima Nova;
+    font-weight: 700;
+    cursor: pointer;
+}
+.sect_two_right{
+    width: 526px;
+    height: 492px;
+    background-image: url(../assets/robot.png);
+}
+.sect_three{
+    margin-top: 150px;
+    width: 46%;
+    height: 561px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.sect_three_title{
+    font-size: 40px;
+    font-family: Proxima Nova;
+    font-weight: 900;
+}
+.sect_three_desc{
+    width: 416px;
+    height: 84px;
+    font-size: 16px;
+    font-family: Proxima Nova;
+    font-weight: 500;
+    border: 3px solid rgba(24, 64, 167, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sect_three_desc p{
+    width: 336px;
+    text-align: center;
+}
+.sect_three_things{
+    width: 100%;
+    height: 261px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sect_three_things_left, .sect_three_things_right{
+    width: 416px;
+    height: 261px;
+    background-color: rgba(24, 64, 167, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.sect_three_things_left img, .sect_three_things_right img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+.sect_three_things_left p, .sect_three_things_right p{
+    font-size: 24px;
+    font-family: Proxima Nova;
+    font-weight: 900;
+    width: 276px;
+    color: white;
+}
+.sect_four_buttonPressed{
+    height: 1248px !important;
+}
+.sect_four_main_row{
+    width: 100%;
+    height: 1236px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sect_four_display{
+    display: flex !important;
+    transition: 1s all ease;
+}
+.sect_four_main_row:nth-of-type(2), .sect_four_main_row:nth-of-type(3){
+    display: none;
+    transition: 1s all ease;
+}
+.sect_four_expand{
+    height: 1516px !important;
+}
+.sect_four{
+    margin-top: 150px;
+    width: 69%;
+    height: 668px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 1s all ease;
+}
+.sect_four_title{
+    font-size: 40px;
+    font-family: Proxima Nova;
+    font-weight: 900;
+}
+.sect_four_main{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.sect_four_main_column{
+    width: 368px;
+    height: 342px;
+    padding: 24px;
+    border: 3px solid rgba(24, 64, 167, 0.5);
+}
+.sect_four_main_column_title{
+    width: 100%;
+    font-size: 16px;
+    font-family: Proxima Nova;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.sect_four_main_column_desc{
+    width: 100%;
+    font-size: 14px;
+    font-family: Proxima Nova;
+    font-weight: 500;
+    margin-top: 16px;
+    color: grey;
+}
+.sect_four_button{
+    margin-top: 80px;
+}
+.sect_four_button button{
+    width: 152px;
+    height: 52px;
+    background-color: rgba(24, 64, 167, 1);
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-family: Proxima Nova;
+    font-weight: 700;
+    cursor: pointer;
+}
